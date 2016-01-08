@@ -1,5 +1,7 @@
 .jumbotron {
   text-align: center;
+  background-color: #00b2a3;
+  color: #FFF6D2;
 }
 
 h3 {
@@ -7,7 +9,12 @@ h3 {
 }
 
 .row {
-  background-color: #C4FFFB;
+  background-color: #B7F2FF;
+}
+
+ /* If time allows: change followed-link colors to be different */
+a {
+  color: #00b2a3;
 }
 
 body {
@@ -17,6 +24,8 @@ body {
 .lang {
   font-size: 125%;
 }
+
+/* MEDIA QUERIES */
 
 @media print {
   .img-responsive {
