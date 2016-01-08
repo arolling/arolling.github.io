@@ -11,7 +11,7 @@ This webpage links to all the sites I've helped produce in my first week at Epic
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+The contact form opened by the modal call does not currently work - apparently this is only implementable using php. The button below it does open a blank e-mail correctly instead. The navigation bar doesn't retract after being used in smaller viewports, concealing content, but as far as I can tell this is the expected behavior.
 
 ## Support and contact details
 
