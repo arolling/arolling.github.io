@@ -21,16 +21,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <
+
         </button>
       </div>
 
       <div>
-        <div class="collapse navbar-collapse" id="abby">
+        <div role="navigation" class="collapse navbar-collapse" id="abby">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About Me</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#contact">Contact Me</a></li>
           </ul>
         </div>
 
@@ -47,9 +48,22 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h2 class="modal-title">Contact Me</h2>
           </div>
-
+<!--Attempt at an input form  here!-->
           <div class="modal-body">
-            <a href="mailto:arolling@gmail.com">E-mail me</a>
+            <form role="form">
+              <div class="form-group">
+                <label for="submitemail">Email Address</label>
+                <input type="email" class="form-control" id="submitemail" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="submitmessage">Message</label>
+                <textarea class="form-control" rows="3" id="submitmessage" placeholder="This form does not work"></textarea>
+              </div>
+            </form>
+<!--Does not actually work - might require php???? -->
+
+
+            <a class="btn btn-success btn-lg" href="mailto:arolling@gmail.com">E-mail me</a>
 
           </div>
 

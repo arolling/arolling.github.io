@@ -33,6 +33,10 @@ body {
   font-size: 125%;
 }
 
+.navbar-nav {
+  float: right;
+}
+
 /* MEDIA QUERIES */
 
 @media print {
