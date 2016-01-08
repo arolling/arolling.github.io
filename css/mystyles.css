@@ -1,5 +1,4 @@
 .jumbotron {
-  margin-top: 50px;
   text-align: center;
 }
 
@@ -8,5 +7,24 @@ h3 {
 }
 
 .row {
-  background-color: #DEFFEC;
+  background-color: #C4FFFB;
+}
+
+body {
+  margin: 25px;
+}
+
+.lang {
+  font-size: 125%;
+}
+
+@media print {
+  .img-responsive {
+    display:none;
+  }
+
+  a [href ^="http:"]::after {
+    content: " [" attr(href) "]";
+    color: red;
+  }
 }

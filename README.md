@@ -1,6 +1,7 @@
 # Portfolio
 
-#### An online portfolio of Epicodus projects, January 8, 2016.
+#### An online portfolio of Epicodus projects: January 8, 2016.
+arolling.github.io
 
 #### By **Abigail Rolling**
 
