@@ -2,10 +2,14 @@
   text-align: center;
   background-color: #00b2a3;
   color: #FFF6D2;
+  margin-top: 50px;
 }
 
 .btn {
   margin-top: 25px;
+  background-color: #B1EAF7;
+  color: black;
+
 }
 
 h3 {
