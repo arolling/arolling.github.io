@@ -20,9 +20,13 @@ h3 {
   background-color: #B7F2FF;
 }
 
- /* If time allows: change followed-link colors to be different */
-a {
+
+a:link {
   color: #00b2a3;
+}
+
+a:visited {
+  color:#BDA645;
 }
 
 body {
