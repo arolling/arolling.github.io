@@ -20,7 +20,9 @@ h3 {
   background-color: #B7F2FF;
 }
 
-
+img {
+  padding: 3px;
+}
 a:link {
   color: #00b2a3;
 }
